@@ -7,8 +7,6 @@ const fs=require("fs");
  */
 const rs=fs.createReadStream("./座右铭.txt");
 
-
-
 //3.绑定 data 事件  chunk 块
 rs.on('data',chunk=>{
     console.log("chunk:",chunk)

@@ -1,4 +1,4 @@
-//同步读取
+
 const fs = require('fs')
 
 /**
@@ -14,7 +14,7 @@ const fs = require('fs')
 // })
 
 
-//异步读取
+//同步读取
 fs.readFileSync("./座右铭.txt", (err, data) => {
     if (err) {
         console.log("err", err)

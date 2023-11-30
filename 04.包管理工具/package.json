@@ -1,0 +1,15 @@
+{
+  "name": "1-npm",
+  "version": "1.0.0",
+  "description": "包管理工具测试",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node index.js"
+  },
+  "keywords": [
+    "package"
+  ],
+  "author": "",
+  "license": "ISC"
+}
